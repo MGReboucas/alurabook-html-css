@@ -1,0 +1,18 @@
+@import url("./header.css");
+
+:root{
+     --cor-cinza: #C4C4C4;
+     --cor-amarelo: #eb9b00;
+     --cor-azul: #002f52;
+     --cor-branco: #ffffff;
+     --cor-preto: #000000;
+     --cor-branco-escuro: #EBECEE;
+
+     --fonte-principal: "Poppins", sans-serif;
+}
+
+body{
+     background-color: var(--cor-branco-escuro);
+}
+
+
