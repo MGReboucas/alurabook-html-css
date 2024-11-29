@@ -1,0 +1,33 @@
+.novidades{
+     background-color: var(--cor-branco);
+     color: var(--cor-azul);
+     padding: 2em 1em 2em 1em;
+}
+
+.novidades__titulo{
+     font-size: 1.3rem;
+
+     margin: 0em 0em .5em 0em;
+}
+
+.novidades__texto{
+     line-height: 1.3;
+     font-size: 1rem;
+     font-weight: 500;
+     margin: 0em 0em 1em 0em;
+}
+
+.novidades__envio__email{
+     color: var(--cor-azul);
+     border: 1px solid var(--cor-azul);
+     width: 90%;
+     
+}
+
+.novidades__envio__email::placeholder{
+     color: var(--cor-azul);
+     background: url("../imagens/Email.svg");
+     background-repeat: no-repeat;
+     background-position: 2em;
+}
+

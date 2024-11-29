@@ -1,0 +1,24 @@
+@import url("/styles/header.css");
+@import url("/styles/banner.css");
+@import url("./styles/carrocel.css");
+@import url("./styles/topicos.css");
+@import url("./styles/novidades.css");
+@import url("./styles/footer.css");
+
+:root{
+     --cor-cinza: #C4C4C4;
+     --cor-laranja: #eb9b00;
+     --cor-azul: #002f52;
+     --cor-branco: #ffffff;
+     --cor-preto: #000000;
+     --cor-branco-escuro: #EBECEE;
+
+     --fonte-principal: "Poppins", sans-serif;
+}
+
+body{
+     background-color: var(--cor-branco-escuro);
+     font-family: var(--fonte-principal);
+}
+
+

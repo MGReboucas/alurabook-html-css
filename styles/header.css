@@ -1,3 +1,4 @@
+
 .cabecalho__menu{
      width: 24px;
      height: 24px;
@@ -10,9 +11,59 @@
      display: flex;
      justify-content: space-between;
      align-items: center;
+     position: relative;
 }
 
 .conteiner{
      display: flex;
      align-items: center;
 }
+
+.conteiner__botao{
+     display: none;
+}
+
+/* COMBINADOR CSS */
+.conteiner__botao:checked ~ .lista-menu{
+     display: block;
+}
+
+.cabecalho__menu{
+     width: 24px;
+     height: 24px;
+     background-image: url(../imagens/Menu.svg);
+     background-repeat: no-repeat;
+     background-position: center;
+     display: inline-block;
+}
+
+.conteiner__imagem{
+    padding: 1em; 
+}
+
+.lista-menu{
+     display: none;
+     position: absolute;
+     top: 100%;
+     width: 60vw;
+}
+
+.lista-menu__titulo,
+.lista-menu__item{
+     padding: 1em;
+     background-color: var(--cor-branco);
+}
+
+.lista-menu__titulo{
+     color: var(--cor-laranja);
+     font-size: 1rem;
+     font-weight: 700;
+}
+
+.lista-menu__item a{
+     color: var(--cor-azul);
+     text-decoration: none;
+     font-size: 1.3rem;
+     font-weight: 400;
+}
+
