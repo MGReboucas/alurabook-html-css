@@ -31,3 +31,27 @@
      background-position: 2em;
 }
 
+@media screen and (min-width: 1024px) {
+     .novidades{
+          padding: 4em 1em 4em 1em;
+          display: flex;
+     }
+
+     .novidades__tit__sub{
+          margin: 1em 1em 1em 1em;
+     }
+
+     .novidades__email{
+          justify-content: center;
+          margin: 0em 0em 0em 5em;
+     }
+
+     .novidades__envio__email{
+          width: 160%;
+     }
+
+     .novidades__envio__email::placeholder{
+          background-position: 3em;
+          padding: 0em 0em 0em 1em;
+     }
+}

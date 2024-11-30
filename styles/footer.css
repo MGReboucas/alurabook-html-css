@@ -1,3 +1,41 @@
-.footer-titulo{
-     margin: 1em 0em 1em 2em;
+.footer {
+  margin: 0em 2em 0em 0em;
+  padding: 2em 0em 2em 3em;
+  display: flex;
+  gap: 4em;
+  justify-content: space-between;
+}
+
+.footer__lista{
+     display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer-titulo {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  .footer__lista {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer__lista__titulo {
+    color: var(--cor-cinza);
+    text-transform: uppercase;
+    margin: 0em 0em 1em 1em;
+  }
+
+  .footer__lista__item {
+    display: flex;
+    align-items: center;
+    margin: 0em 0em 0.5em 1em;
+  }
+
+  .footer__lista__item__nome {
+    text-decoration: none;
+    color: var(--cor-preto);
+    padding: 0em 0em 0em 0.5em;
+  }
 }
