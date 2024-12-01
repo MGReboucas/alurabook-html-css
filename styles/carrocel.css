@@ -86,6 +86,10 @@
      margin: 1.3em 0em 0em 0em;
 }
 
+.botoes__avancar{
+     display: none;
+}
+
 @media screen and (min-width: 1024px) {
      .carrossel__titulo{
           font-size: 1.625rem;
@@ -99,4 +103,30 @@
           width: 50%;
           margin: 1em auto;
      }
+}
+
+@media screen and (min-width: 1728px) {
+     .carrossel__conteiner{
+          display: flex;
+          align-items: center;
+          margin: 3em 10em 3em 10em;
+     }
+
+     .card__descricao{
+          padding: 1.5em 1em 1em 1em;
+     }
+
+     .swiper{
+          width: 45%;
+          margin: 0em 2em;
+     }
+
+     .descricao__titulo{
+          font-size: 2rem;
+     }
+
+     .botoes__avancar{
+          display: block;
+     }
+
 }
